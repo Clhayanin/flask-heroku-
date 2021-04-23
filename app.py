@@ -363,9 +363,10 @@ def delete_comm(id):
 #     x = post.update_one(gpost, vote)
 #     return jsonify({"status": "vote Success"})
 
-@app.route("/",method=["GET"])
+@app.route('/')
 def hello():
-    return "Hello ITNEWS"
+    return "Hello ITNEW"
+
 
 
 if __name__ == "__main__":
