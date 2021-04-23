@@ -365,7 +365,7 @@ def delete_comm(id):
 
 @app.route('/')
 def hello():
-    return "Hello ITNEW"
+    return "Hello IT"
 
 
 
